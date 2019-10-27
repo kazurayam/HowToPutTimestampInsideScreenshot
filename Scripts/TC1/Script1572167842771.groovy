@@ -7,13 +7,13 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
 import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 
 import javax.imageio.ImageIO
 
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import java.time.format.DateTimeFormatter
 
 WebUI.openBrowser('')
 WebUI.setViewPortSize(800, 600)
